@@ -1147,7 +1147,16 @@ a.slide-btn:hover {
 .footer .credits a {
   color: #73AE20;
 }
-
+.Brand_Show{
+    color: #73ae20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    
+}
+.Brand_Show a:hover{
+    color: red;
+}
 /*
 * ----------------------------------------------------------------------------------------
 * PREVIEW CSS STYLE
