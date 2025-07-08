@@ -909,6 +909,9 @@ a.slide-btn:hover {
 * ----------------------------------------------------------------------------------------
 */
 
+
+
+
 .contact-area {
     background: #F7F7F7;
 }
@@ -941,7 +944,7 @@ a.slide-btn:hover {
     background: #f7f7f7;
 }
 
-.single-contact {}
+
 
 .single-contact h2 {
     font-size: 18px;
@@ -1069,6 +1072,7 @@ a.slide-btn:hover {
 
 .footer .social-links a {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 40px;
@@ -1079,7 +1083,8 @@ a.slide-btn:hover {
   color: rgba(255, 255, 255, 0.7);
   margin-right: 10px;
   transition: 0.3s;
-  margin-top:"10px";
+  margin-top:7px;
+
   
 }
 
@@ -1103,6 +1108,7 @@ a.slide-btn:hover {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .footer .footer-links ul i {
@@ -1114,8 +1120,8 @@ a.slide-btn:hover {
 
 .footer .footer-links ul li {
   padding: 10px 0;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 .footer .footer-links ul li:first-child {
