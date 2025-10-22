@@ -162,6 +162,8 @@ a.read-more:hover {
 }
 
 
+
+
 /*
 * ----------------------------------------------------------------------------------------
 * 02.PRELOADER & BOUNCE CCS STYLE
@@ -259,6 +261,13 @@ a.read-more:hover {
 * ----------------------------------------------------------------------------------------
 */
 
+.main_logo img {
+    width: 50
+    px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
 .welcome-area {
     height: 100%;
 }
@@ -298,15 +307,22 @@ a.read-more:hover {
 }
 
 .header-text h2 {
-    color: #f4e9cd;
-    font-size: 70px;
-    margin-top: 10px;
-    text-transform: capitalize;
+    color: #F9F9F9;
+    font-family: 'Geometry Soft Pro', sans-serif;
+    /* font-family:poppins, sans-serif;     */
+    /* text-transform: lowercase; */
+    font-weight: 1000;
+    font-size: 100px;
+    letter-spacing: 3px;
+    /* margin-top: 10px;
+    text-transform: capitalize; */
 }
+
 
 .header-text p {
     color: #fff;
     font-size: 16px;
+    font-family: poppins, sans-serif;
     margin: 0;
     margin-bottom: 20px;
     padding: 0px 100px;
@@ -680,7 +696,7 @@ a.slide-btn:hover {
     left: 0;
     height: 1px;
     width: 100%;
-    background: #w;
+    background: #fff;
     content: "";
     margin-top: 10px;
 }
@@ -1046,7 +1062,9 @@ a.slide-btn:hover {
   padding: 50px 0;
   color: white;
 }
-
+.footer-info{
+    padding-right: 2;
+}
 .footer .footer-info .logo {
   line-height: 0;
   margin-bottom: 25px;
@@ -1070,23 +1088,28 @@ a.slide-btn:hover {
   font-family: var(--font-primary);
 }
 
+.footer .social-links {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
 .footer .social-links a {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 5px solid rgba(255, 255, 255, 0.2);
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
-  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   transition: 0.3s;
-  margin-top:7px;
-
-  
 }
+
 
 .footer .social-links a:hover {
   color: #73AE20;
@@ -1102,6 +1125,9 @@ a.slide-btn:hover {
 
 .footer .footer-links {
   margin-bottom: 30px;
+
+
+
 }
 
 .footer .footer-links ul {
@@ -1456,3 +1482,5 @@ a.slide-btn:hover {
     }
 
         /* Extra section -02 End */
+
+        

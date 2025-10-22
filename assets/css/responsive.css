@@ -132,6 +132,15 @@ Version      : 1.0
     }
 }
 
+@media (max-width: 768px) {
+    .social-links {
+        flex-direction: row;        /* align horizontally */
+        justify-content: center;    /* center icons */
+        gap: 15px;                  /* spacing between icons */
+    }
+}
+
+
 
 /* Wide Mobile Layout: 480px. */
 
