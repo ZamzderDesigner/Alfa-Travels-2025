@@ -130,6 +130,29 @@ Version      : 1.0
         padding-top: 3px;
         margin-bottom: 10px;
     }
+
+    .header-text p {
+        font-size: 13px;        /* smaller text for mobile */
+        padding: 0px 20px;      /* less padding for narrow screens */
+        letter-spacing: 1px;    /* tighter spacing */
+        text-align: center;     /* center-align text on mobile */
+        padding-top: 20px;
+    }
+    .welcome-image-area {
+        background-size: contain;   /* make full image visible */
+        background-position: top;   /* adjust focus area */
+        height: auto;               /* allow height to adapt */
+    }
+     a.slide-btn {
+        font-size: 10px;         /* smaller font */
+        padding: 10px 20px;      /* smaller padding */
+        margin: 10px 5px;         /* reduce space between buttons */
+        letter-spacing: 0.5px;   /* tighter spacing */
+        border-radius: 25px;     /* slightly smaller curve */
+        text-align: center;      /* center each button */
+    }
+    
+
 }
 
 @media (max-width: 768px) {

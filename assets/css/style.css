@@ -298,6 +298,9 @@ a.read-more:hover {
 .header-text {
     margin-bottom: 100px;
 }
+.header-text img{
+    opacity: 85%
+}
 
 .header-text h2 {
     color: #F9F9F9;
@@ -314,11 +317,13 @@ a.read-more:hover {
 
 .header-text p {
     color: #fff;
-    font-size: 17px;
+    opacity: 90%;
+    font-size: 16px;
     /* font-family: poppins, sans-serif; */
     font-family: 'Geometry Soft Pro', sans-serif;
     letter-spacing: 2px;
     margin-bottom: 20px;
+    margin-top: 30px;
     padding: 0px 100px;
 }
 
@@ -343,6 +348,9 @@ a.read-more:hover {
     z-index: 999;
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
+}
+.header-text img{
+    margin-top: 70px;
 }
 
 
@@ -383,6 +391,7 @@ a.read-more:hover {
 }
 
 a.slide-btn {
+    opacity: 80%;
     margin: 0px 10px;
     display: inline-block;
     color: #fff;
@@ -398,6 +407,7 @@ a.slide-btn {
 }
 
 a.slide-btn:hover {
+
     color: #fff;
     border: 1px solid #73AE20;
     background: transparent;
