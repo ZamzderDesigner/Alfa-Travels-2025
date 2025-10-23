@@ -261,13 +261,6 @@ a.read-more:hover {
 * ----------------------------------------------------------------------------------------
 */
 
-.main_logo img {
-    width: 50
-    px;
-    height: 100px;
-    padding: 0;
-    margin: 0;
-}
 .welcome-area {
     height: 100%;
 }
@@ -303,7 +296,7 @@ a.read-more:hover {
 }
 
 .header-text {
-    margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 .header-text h2 {
@@ -311,7 +304,7 @@ a.read-more:hover {
     font-family: 'Geometry Soft Pro', sans-serif;
     /* font-family:poppins, sans-serif;     */
     /* text-transform: lowercase; */
-    font-weight: 1000;
+    font-weight: 700;
     font-size: 100px;
     letter-spacing: 3px;
     /* margin-top: 10px;
@@ -321,9 +314,10 @@ a.read-more:hover {
 
 .header-text p {
     color: #fff;
-    font-size: 16px;
-    font-family: poppins, sans-serif;
-    margin: 0;
+    font-size: 17px;
+    /* font-family: poppins, sans-serif; */
+    font-family: 'Geometry Soft Pro', sans-serif;
+    letter-spacing: 2px;
     margin-bottom: 20px;
     padding: 0px 100px;
 }
@@ -341,28 +335,6 @@ a.read-more:hover {
     transition: all 0.4s ease-out;
 }
 
-.tour-info ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.tour-info ul li {
-    display: inline-block;
-    color:#fafafa;
-    font-size: 14px;
-    font-weight: 300;
-    margin-left: 20px;
-    text-transform: capitalize;
-}
-
-.tour-info ul li i {
-    margin-right: 10px;
-    text-align: center;
-    border-radius: 50%;
-    line-height: 25px;
-}
-
 .header-top-area {
     position: fixed;
     left: 0;
@@ -372,6 +344,12 @@ a.read-more:hover {
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
 }
+.header-text img{
+    width: 630px;
+    height: auto;
+    border-radius: 10%;
+    
+}
 
 .logo {
     padding-top: 25px;
@@ -380,18 +358,22 @@ a.read-more:hover {
 }
 
 .logo a p {
-    text-transform: uppercase;
-    font-size: 16px;
+    font-family: 'Geometry Soft Pro', sans-serif;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    font-size: 20px;
     font-weight: 600;
     color: rgb(32, 31, 31);
 }
 
 .menu-bg {
+
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     background: #fff;
     box-shadow: 0 2px 10px -1px rgba(87, 97, 100, 0.35);
     background: #212121;
+    opacity: 50%;
     border: none;
 }
 
@@ -406,7 +388,7 @@ a.read-more:hover {
 }
 
 a.slide-btn {
-    margin: 0px 5px;
+    margin: 0px 10px;
     display: inline-block;
     color: #fff;
     padding: 12px 30px;
@@ -581,25 +563,7 @@ a.slide-btn:hover {
     color: #73AE20;
 }
 
-.carousel-indicators li {
-    width: 30px;
-    height: 4px;
-    border-radius: 4px;
-    margin: 0;
-    background: #73AE20;
-    border: none;
-    -webkit-transition: .3s;
-    transition: .3s;
-}
 
-.carousel-indicators li.active {
-    width: 30px;
-    height: 4px;
-    border-radius: 4px;
-    border: none;
-    -webkit-transition: .3s;
-    transition: .3s;
-}
 
 
 /*
@@ -1401,86 +1365,3 @@ a.slide-btn:hover {
   
     /* Extra section */
 
-    /* Extra section -02 */
-
-    .container_whycoose {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-      border-radius: 20px;
-      padding: 40px;
-      max-width: 1200px;
-      margin: 50px auto;
-    }
-
-    .text-section {
-      flex: 1;
-    }
-
-    .text-section h2 {
-      font-size: 32px;
-      font-weight: 700;
-      color: #111827;
-      margin-bottom: 30px;
-    }
-
-    .feature {
-      margin-bottom: 30px;
-    }
-
-    .feature h4 {
-      font-size: 18px;
-      font-weight: 600;
-      margin: 0;
-      color: #1f2937;
-    }
-
-    .feature p {
-      color: #4b5563;
-      margin-top: 8px;
-      font-size: 14px;
-    }
-
-    .icon-text {
-      display: flex;
-      align-items: flex-start;
-      gap: 15px;
-    }
-
-    .icon-text img {
-      width: 24px;
-      height: 24px;
-      margin-top: 4px;
-    }
-
-    .image-section {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-    }
-
-    .image-section img {
-      width: 100%;
-      max-width: 500px;
-      border-radius: 20px;
-    }
-
-    @media (max-width: 900px) {
-      .container_whycoose {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .image-section {
-        margin-top: 30px;
-      }
-
-      .icon-text {
-        justify-content: center;
-      }
-    }
-
-        /* Extra section -02 End */
-
-        
